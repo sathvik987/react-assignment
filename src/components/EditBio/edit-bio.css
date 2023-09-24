@@ -1,0 +1,28 @@
+.upload-resume {
+    background-color: #8080800d;
+    border: 1px solid grey;
+    padding: 1em 2em;
+}
+
+.blood-group-dropdown {
+    width: 100%;
+    background-color: #8080800d;
+}
+
+.blood-group-dropdown:hover {
+    background-color: #8080800d;
+}
+
+.save {
+    width: 60%;
+    border-radius: 2em;
+}
+
+.action-button {
+    border-radius: 2em;
+}
+
+.confirm {
+    margin-top: 50%;
+    background-color: #8080800d;
+}

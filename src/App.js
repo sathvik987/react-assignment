@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Bio from "./components/Bio/Bio"
+
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas, faChevronLeft, faPencil, faChevronRight, faFilePdf, faImage, faTrash, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { far } from '@fortawesome/free-regular-svg-icons';
+library.add(fas, far, faChevronLeft, faPencil, faChevronRight, faFilePdf, faImage, faTrash, faTimes)
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Bio></Bio>
     </div>
   );
 }

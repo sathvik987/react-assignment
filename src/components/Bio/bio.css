@@ -1,0 +1,35 @@
+.bio-row {
+    display: flex;
+    justify-content: center;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.gray {
+    color: gray;
+}
+
+.about-me {
+    max-height: 8em;
+    white-space: normal;
+    overflow: auto;
+}
+
+.resume-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 1px #55555521;
+    box-shadow: 0 0 5px 5px rgb(0 0 0 / 4%);
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+.flex-center-space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
