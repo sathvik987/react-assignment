@@ -33,3 +33,23 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.skills-col {
+    margin: 4px, 4px;
+    padding: 4px;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.flex-center-space-even {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rating {
+    background-color: gray;
+    color: white;
+}
